@@ -1,0 +1,29 @@
+.messages {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.notification {
+  color: blueviolet;
+  text-decoration: none;
+  padding: 8px 10px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge {
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  padding: 2px 8px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
